@@ -1,0 +1,27 @@
+{
+	"name": "watermark",
+	"dockerFile": "../Dockerfile",
+	"workspaceFolder": "/workspaces",
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"python.formatting.provider": "yapf"
+			},
+			"extensions": [
+				"eamodio.gitlens",
+				"tht13.python",
+				"ms-python.python"
+			]
+		}
+	},
+	"mounts": [
+		//"source=$PATH_TO_YOUR_DATASET,target=/workspaces/data,type=bind,consistency=cached"
+	],
+	"runArgs": [
+		"--gpus",
+		"all"
+	],
+	"containerEnv": {
+		"NVIDIA_DISABLE_REQUIRE": "1"
+	}
+}

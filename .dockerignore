@@ -1,0 +1,8 @@
+*.sif
+*.png
+*.pt
+images/
+weights/
+Faceshifter/
+FaceSwap/
+core
