@@ -1,0 +1,7 @@
+matplotlib
+tqdm
+timm
+
+# Jpeg
+augly
+

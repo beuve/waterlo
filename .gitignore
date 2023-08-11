@@ -1,0 +1,10 @@
+__pycache__
+.DS_Store
+*.pt
+err
+out
+*.sif
+*.png
+core
+images/
+weights/
